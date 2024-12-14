@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .bg-gray-50 {
+    background-color: #f9fafb;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  /* Typography */
+  .text-lg {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+  }
+  
+  .text-green-600 {
+    color: #16a34a;
+  }
+  
+  .text-red-600 {
+    color: #dc2626;
+  }
+  
+  .text-blue-400 {
+    color: #60a5fa;
+  }
+  
+  .text-gray-200 {
+    color: #e5e7eb;
+  }
+  
+  /* SVG Classes */
+  .transition-all {
+    transition: all 0.3s ease;
+  }
+  
+  .duration-300 {
+    transition-duration: 300ms;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .stroke-blue-400:hover {
+    stroke: #60a5fa;
+  }
+  
+  .fill-gray-200:hover {
+    fill: #e5e7eb;
+  }
+  
+  .fill-green-200 {
+    fill: #bbf7d0;
+  }
+  
+  .fill-red-200 {
+    fill: #fecaca;
+  }
+  
+  .fill-gray-500:hover {
+    fill: #6b7280;
+  }
+  
+  .fill-green-500 {
+    fill: #22c55e;
+  }
+  
+  .fill-red-500 {
+    fill: #ef4444;
+  }
+  
+  /* Borders */
+  .stroke {
+    stroke-width: 1;
+  }
+  
+  .stroke-1 {
+    stroke-width: 1;
+  }
+  
+  .stroke-gray-500 {
+    stroke: #6b7280;
+  }
+  
+  .stroke-green-500 {
+    stroke: #22c55e;
+  }
+  
+  .stroke-red-500 {
+    stroke: #ef4444;
+  }
+  
+  /* Utility */
+  .text-anchor-middle {
+    text-anchor: middle;
+  }
+  
+  .space-y-2 > * + * {
+    margin-top: 0.5rem;
+  }
+  
+  /* Special Elements */
+  .scale-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scale-indicator line {
+    stroke: black;
+    stroke-width: 2;
+  }
+  
+  .scale-indicator text {
+    margin-top: 4px;
+    font-size: 0.75rem;
+  }
+  
+  /* Map Controls */
+  .map-controls ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .map-controls ul li::before {
+    content: "•";
+    margin-right: 8px;
+    color: inherit;
+  }
+  
+  .map-controls .text-green-600 {
+    margin-top: 0.5rem;
+  }
+  
+  .map-controls .text-red-600 {
+    margin-top: 0.5rem;
+  }
+  
