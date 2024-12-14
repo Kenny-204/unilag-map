@@ -1,9 +1,9 @@
 import  { useState, useRef } from 'react';
 import { ZoomIn, ZoomOut, RefreshCw } from 'lucide-react';
-import { createMapGraph } from './PathFinding.js';
+import { createMapGraph } from '../PathFinding.js';
 
 
-const SchoolEntranceMap = () => {
+const App = () => {
   const [scale, setScale] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
